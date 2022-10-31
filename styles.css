@@ -27,7 +27,7 @@ body {
  border-radius: 35%;
  width: 25px;
  height: 25px;
- background: rgba(260, 260, 260, .2);
+ background: rgba(260, 260, 260, .1);
  animation: animate 20s linear infinite;
  bottom: -150px;
 }
@@ -111,7 +111,8 @@ body {
 }
 
 .logo:hover {
- color: rgb(206, 204, 204)
+ color: rgb(206, 204, 204);
+ letter-spacing: 5px;
 }
 
 .navlinks {
@@ -325,6 +326,10 @@ main a {
  border-radius: 15px;
 }
 
+.figma-link img:hover {
+ border: 1px solid #413C3C
+}
+
 .figma-link span {
  margin-top: 1rem;
 }
@@ -432,12 +437,70 @@ footer span {
  font-weight: 600;
 }
 
-
-
-
-
-
-
 .container {
  padding: 64px 250px;
 }
+
+/* CONTACTS!!! */
+
+.contact-container {
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ align-items: center;
+}
+
+.contact-container h1 {
+ margin: 70px 0 10px;
+ color: #fff;
+
+}
+
+form {
+ background: rgb(83, 83, 83, .5);
+ display: flex;
+ flex-direction: column;
+ padding: 50px;
+ width: 40%;
+ max-width: 100%;
+ border-radius: 10px;
+}
+
+form input, form textarea {
+ border: none;
+ margin: 10px 0;
+ padding: 15px 10px;
+ border-radius: 10px;
+ background-color: #D9D9D9;
+ font-size: 16px;
+ resize: none;
+ transition: .1s;
+}
+
+form input:focus, form textarea:focus {
+ outline: 4px solid #575555
+}
+
+form ::placeholder {
+ color: rgb(0, 0, 0, .6);
+ font-size: 13px;
+}
+
+form button {
+ background-color:rgb(94, 241, 152);
+ border-radius: 10px;
+ padding: 10px;
+ margin: 10px auto 0;
+ cursor: pointer;
+ width: 150px;
+ font-weight: 600;
+ font-size: 16px;
+ transition: .2s;
+}
+
+form button:hover {
+ background: rgb(20, 233, 105);
+}
+
+
+
