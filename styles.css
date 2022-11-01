@@ -6,6 +6,46 @@
  scroll-behavior: smooth;
 }
 
+.top {
+ text-decoration: none;
+ color: #fff;
+ font-weight: 900;
+ font-size: 14px;
+ background: rgb(75, 74, 74);
+ padding: 13px 16px;
+ text-align: center;
+ align-items: center;
+ border-radius: 100%;
+ position: sticky;
+ bottom: 30px;
+ left: 95vw;
+ margin-top: 200vh;
+ transition: .2s;
+ opacity: .5;
+}
+
+.top:hover {
+ background: #858282;
+}
+
+
+
+
+::-webkit-scrollbar {
+ width: 5px;
+}
+::-webkit-scrollbar-thumb {
+ background: rgba(194, 194, 194, 0.985);
+}
+
+::-webkit-scrollbar-thumb:hover {
+ background: rgb(130, 130, 130);
+}
+
+::-webkit-scrollbar-track {
+ background: rgba(255, 255, 255, 0.1);
+}
+
 body {
  background: #161A1B;
 }
