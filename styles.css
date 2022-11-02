@@ -696,4 +696,41 @@ form button:hover {
    }
    
 
+   /* CONTACTS PAGE */
+
+   .column {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .column img {
+    width: 23rem;
+    margin-bottom: 1rem;
+   }
+
+   .column span {
+    display: none;
+   }
+
+   .js-txt {
+    display: none;
+   }
+
+   .extra img {
+    width: 24rem;
+   }
+   
+   .extra span {
+    display: none;
+   }
+
+  .container {
+   padding: 40px 50px;
+   display: grid;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   }
 }
