@@ -532,6 +532,36 @@ form button:hover {
  background: rgb(20, 233, 105);
 }
 
+/* SUCCESS HTML */
+.thanks {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.thanks h1, p{
+  color: #fff;
+  text-align: center;
+}
+
+.thanks h1 {
+  font-size: 3rem;
+}
+
+.redirect {
+  color:#D9D9D9;
+  font-size: 13px;
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+}
+
+.thanks p {
+  margin-bottom: 120px;
+}
+
 
 
 @media (max-width: 700px) {
@@ -732,6 +762,22 @@ form button:hover {
    justify-content: center;
    align-items: center;
    text-align: center;
+   }
+
+   .thanks {
+    top: 55%;
+   }
+
+   .thanks h1 {
+    font-size: 1.5rem;
+   }
+
+   .thanks p {
+    font-size: 12.5px;
+   }
+
+   .redirect {
+    font-size: 10px;
    }
    
 }
